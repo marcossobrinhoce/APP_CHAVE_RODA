@@ -8,19 +8,23 @@ export default function App(){
       <Text style={styles.submitText}>Menu de Serviços</Text>
             
 	  <View style={styles.container}>
-
+	
+	<Text style={styles.submitText}></Text>
         <TouchableOpacity style={styles.btnSubmit1}>
           <Text style={styles.submitText}>Agendar Serviço Carro</Text>
         </TouchableOpacity>
 
+	<Text style={styles.submitText}></Text>
         <TouchableOpacity style={styles.btnSubmit2}>
           <Text style={styles.submitText}>Agendar Serviço Moto</Text>
         </TouchableOpacity> 
 
+	<Text style={styles.submitText}></Text>
         <TouchableOpacity style={styles.btnSubmit3}>
           <Text style={styles.submitText}>Agendar Serviço Bicicleta</Text>
         </TouchableOpacity> 
 
+	<Text style={styles.submitText}></Text>
         <TouchableOpacity style={styles.btnSubmit4}>
           <Text style={styles.submitText}>Agendar Serviço Outros Autos</Text>
         </TouchableOpacity>     
